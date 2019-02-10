@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
                 status = false
             } else {
                 //Lap
-                timeLap += timeToText(timeValue) + "\n"
+                timeLap = timeToText(timeValue) + "\n" + timeLap
                 textViewLapTime.text = timeLap
             }
         }
