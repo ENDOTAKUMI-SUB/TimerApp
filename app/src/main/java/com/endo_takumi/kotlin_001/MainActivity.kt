@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.widget.Button
 import android.widget.TextView
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     val handler = Handler()
@@ -13,12 +14,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        // Assigning View elements to variables
-        val textViewTime = findViewById(R.id.textViewTime) as TextView
-        val buttonStart = findViewById(R.id.buttonStart) as Button
-        val buttonStop = findViewById(R.id.buttonStop) as Button
-        val buttonReset = findViewById(R.id.buttonReset) as Button
 
         // Execute processing every second
         val runnable = object : Runnable {
