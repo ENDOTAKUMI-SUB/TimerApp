@@ -17,12 +17,31 @@
             app:layout_constraintTop_toTopOf="parent" android:id="@+id/textViewTime" android:text="@string/textViewTime"
             android:textSize="@dimen/textViewTimeSize"/>
 
+    <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTime"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    >
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewTime" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" tools:text="@string/textViewTime" android:id="@+id/textViewLapTime"
+                    android:singleLine="false" android:textAllCaps="true" android:gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:layout_marginBottom="@dimen/linearLayoutBottom"
             app:layout_constraintBottom_toBottomOf="parent"
-            style="?android:attr/buttonBarStyle">
+            style="?android:attr/buttonBarStyle" android:id="@+id/linearLayout">
         <Button
                 android:text="@string/buttonStart"
                 android:layout_width="@dimen/buttonBottomSize"
@@ -45,13 +64,5 @@
                 android:background="@drawable/button_bottom_ripple"
                 android:textColor="@color/buttonBottomTextColor"/>
     </LinearLayout>
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/textViewTime" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="8dp" tools:text="@string/textViewTime" android:id="@+id/textViewLapTime"
-            android:singleLine="false"/>
 
 </android.support.constraint.ConstraintLayout>
