@@ -6,6 +6,7 @@
 
     <!-- Button Color -->
     <color name="buttonBottomBackgroundColor">#85BFBF</color>
+    <color name="buttonBottomBackgroundHighLightColor">#6d9e9e</color>
     <color name="buttonBottomTextColor">#36403F</color>
 
     <!-- Background Color -->

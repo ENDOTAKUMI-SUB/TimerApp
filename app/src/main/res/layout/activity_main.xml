@@ -28,21 +28,21 @@
                 android:layout_width="@dimen/buttonBottomSize"
                 android:layout_height="wrap_content" android:id="@+id/buttonStart" android:layout_weight="1"
                 style="?android:attr/buttonBarButtonStyle"
-                android:background="@color/buttonBottomBackgroundColor"
+                android:background="@drawable/button_bottom_ripple"
                 android:textColor="@color/buttonBottomTextColor"/>
         <Button
                 android:text="@string/buttonStop"
                 android:layout_width="@dimen/buttonBottomSize"
                 android:layout_height="wrap_content" android:id="@+id/buttonStop" android:layout_weight="1"
                 style="?android:attr/buttonBarButtonStyle"
-                android:background="@color/buttonBottomBackgroundColor"
+                android:background="@drawable/button_bottom_ripple"
                 android:textColor="@color/buttonBottomTextColor"/>
         <Button
                 android:text="@string/buttonReset"
                 android:layout_width="@dimen/buttonBottomSize"
                 android:layout_height="wrap_content" android:id="@+id/buttonReset" android:layout_weight="1"
                 style="?android:attr/buttonBarButtonStyle"
-                android:background="@color/buttonBottomBackgroundColor"
+                android:background="@drawable/button_bottom_ripple"
                 android:textColor="@color/buttonBottomTextColor"/>
     </LinearLayout>
 
