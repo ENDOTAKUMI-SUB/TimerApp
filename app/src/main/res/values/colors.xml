@@ -3,4 +3,11 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!-- Button Color -->
+    <color name="buttonBottomBackgroundColor">#85BFBF</color>
+    <color name="buttonBottomTextColor">#36403F</color>
+
+    <!-- Background Color -->
+    <color name="backgroundColor">#8CC9CA</color>
 </resources>

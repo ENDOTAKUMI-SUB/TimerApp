@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="linearLayoutBottom">0dp</dimen>
+    <dimen name="buttonBottomSize">0sp</dimen>
     <dimen name="textViewTimeSize">60sp</dimen>
 </resources>
