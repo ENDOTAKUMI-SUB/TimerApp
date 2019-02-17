@@ -9,4 +9,7 @@
     <string name="buttonStop">STOP</string>
     <string name="buttonReset">RESET</string>
     <string name="buttonResetLap">LAP</string>
+
+    <!--Presenter-->
+
 </resources>

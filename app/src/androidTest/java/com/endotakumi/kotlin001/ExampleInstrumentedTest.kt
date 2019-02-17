@@ -1,4 +1,4 @@
-package com.endo_takumi.kotlin_001
+package com.endotakumi.kotlin001
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
